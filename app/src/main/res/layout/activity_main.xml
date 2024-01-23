@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Title"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_marginBottom="30dp"/>
+        <Button
+            android:id="@+id/buttonClickConverter"
+
+            style="@style/ButtonNavigation"
+            android:text="@string/buttonClickConverter"/>
+
+        <Button
+            android:id="@+id/buttonClickNews"
+            style="@style/ButtonNavigation"
+            android:text="@string/buttonClickNews"/>
+        <Button
+            android:id="@+id/buttonClickCalculator"
+            style="@style/ButtonNavigation"
+            android:text="@string/buttonClickCalculator"/>
+        <Button
+            android:id="@+id/buttonClickLogin"
+            style="@style/ButtonNavigation"
+            android:text="@string/buttonClickLogin"/>
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

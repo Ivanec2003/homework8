@@ -1,0 +1,38 @@
+<resources>
+<!--    MainActivity-->
+    <string name="app_name">homework8</string>
+    <string name="Title">Navigation</string>
+    <string name="buttonClickConverter">Money converter</string>
+    <string name="buttonClickNews">News</string>
+    <string name="buttonClickCalculator">Calculator</string>
+    <string name="buttonClickLogin">Login</string>
+<!--ConverterActivity-->
+    <string name="editTextEnterSum">Enter sum</string>
+    <string name="textViewResultConversion">Result: </string>
+    <string name="editTextExchangeRate">Enter exchange rate</string>
+    <string name="buttonClickConversion">Conversion</string>
+<!--    Calculator-->
+    <string name="button0">0</string>
+    <string name="button1">1</string>
+    <string name="button2">2</string>
+    <string name="button3">3</string>
+    <string name="button4">4</string>
+    <string name="button5">5</string>
+    <string name="button6">6</string>
+    <string name="button7">7</string>
+    <string name="button8">8</string>
+    <string name="button9">9</string>
+    <string name="buttonPoint">.</string>
+    <string name="buttonClean">C</string>
+    <string name="buttonDivide">/</string>
+    <string name="buttonMultiply">*</string>
+    <string name="buttonMinus">-</string>
+    <string name="buttonPlus">+</string>
+    <string name="buttonEquals">=</string>
+<!--    Login-->
+    <string name="imageButtonExit">exit</string>
+    <string name="editTextUserName">Email</string>
+    <string name="editTextPassword">Password</string>
+    <string name="buttonSignIn">Sign In</string>
+    <string name="descriptionLogoCompany">Logo of company</string>
+</resources>
